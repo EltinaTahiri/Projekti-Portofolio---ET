@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+#portofolio-et {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden ;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0 ;
+}
+.navbar-dark .navbar-nav .navbar-link{
+    color: #fff;
+    padding-left: 20px;
+}
+
+.et-img-fluid {
+    width: 1400px;
+    height: 800px;
+}
+
+.et-heading-content {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.et-heading-content h5 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.et-heading-content h1 {
+    font-size: 5em;
+    font-weight: 300;
+    color:#fff;
+    background-color: rgba(2, 2, 2, 0.822);
+    font-family: 'Monteserrat' , sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.et-heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    font-family: 'Monteserrat' , sans-serif;
+    background-color: rgb(37, 33, 33);
+    margin-left: 400px;
+    margin-right: 400px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.et-display {
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    padding: 20px  ;
+}
+
+.et-img-rrm {
+    width: 600px;
+    height: 400px;
+    float: right;
+    }
+
+#rrethmeje .btn {
+    border: 2px solid rgb(99, 99, 138);
+    width: 10%;
+    padding: 3px 3px;
+    background: rgb(200, 197, 240);
+    border-radius: 10px;
+    }
+
+#sherbimi h2 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.alert {
+    text-align: center;
+    font-size: large;
+}
+#kontakti h2 {
+    text-align: center;
+}
+#blog h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+/* linqet */
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+a:hover {
+    color: palevioletred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+ video {
+     width: 800px;
+     height: 400px;
+     align-items: center;
+ }
+ 
+ .et-carousel-slide {
+     padding: 7px;
+     margin: 6px;
+     box-sizing: border-box;
+     display: flex;
+     width: 100%;
+     height: 500px;
+    
+ }
+ .et-carousel-container {
+     width: 57%;
+    margin: auto;
+    border: 3px solid black;
+    overflow: hidden;
+ }
+
+ /* footeri */ 
+ .et-footer {
+     text-align: center;
+ }
